@@ -1,0 +1,52 @@
+.active {
+    border-left: 8px solid rgb(55, 0, 255);
+    background-color: royalblue;
+}
+
+table, th, td {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: royalblue;
+    padding: 15px;
+    margin: 10px;
+}
+
+.main h2 {
+    background-color: rgba(130,130,130,0.5);
+    text-align: center;
+    width: 98%;
+    margin: 10px auto;
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+table button, .addstudent {
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.addstudent {
+    background-color: rgb(9, 194, 70);
+    padding: 15px;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 13px;
+}
+
+.view {
+    background-color: rgb(1, 57, 141);
+}
+
+.update {
+    background-color: rgb(9, 194, 70);
+}
+
+.delete {
+    background-color: rgb(194, 9, 9);
+}

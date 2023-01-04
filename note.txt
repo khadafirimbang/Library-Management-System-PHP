@@ -1,0 +1,42 @@
+
+database name: lms_db
+
+table name 1: accounts_tbl
+Colums of accounts_tbl: 
+lastname : varchar
+firstname : varchar
+middlename : varchar
+email : varchar
+password : varchar
+cpassword : varchar
+account_type : int
+
+table name 2: list_of_books_tbl
+Colums of list_of_books_tbl
+book_id : int auto increment
+title : varchar
+author_name : varchar
+category : varchar
+description: varchar
+
+table name 3: list_of_borrowers_tbl
+Colums of list_of_borrowers_tbl
+borrower_id: int
+book_title : varchar
+qty : int
+lastname : varchar
+firstname : varchar
+middlename : varchar
+age : int
+address : varchar
+mobileno : varchar
+email : varchar
+course : varchar
+year_level : varchar
+section : varchar
+fine : int
+status : varchar
+role : varchar
+due_date : date
+return_date : date
+

@@ -1,0 +1,23 @@
+.head {
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.head input {
+    padding: 7px 10px;
+    margin: 5px;    
+    border: none;
+    border-radius: 10px;
+    outline: none;  
+}
+
+#search {
+    color: white;
+    background-color: rgb(90, 127, 236);
+    cursor: pointer;
+}
+
+
+
+
+

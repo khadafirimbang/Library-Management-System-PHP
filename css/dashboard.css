@@ -1,0 +1,12 @@
+.active {
+    border-left: 8px solid rgb(55, 0, 255);
+    background-color: royalblue;
+}
+
+.infos {
+    text-align: center;
+}
+
+.infos h3 {
+    margin-top: 10px;
+}

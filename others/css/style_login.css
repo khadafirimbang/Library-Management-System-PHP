@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: royalblue ;
+}
+
+/* For Smartphone */
+img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1 {
+    margin: 20px 0;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: #E7E7E9;
+}
+
+input:focus {
+    border: 1px #6FB553 solid;
+}
+
+button {
+    cursor: pointer;
+    height: 40px;
+    width: 70%;
+    border-radius: 50px;
+    border: none;
+    margin: 5px auto;
+    background-color: #525AC7;
+    color: white;
+}
+
+.login {
+    background-color: #6FB553;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px;
+    color: white;
+}
+
+a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* For Desktop */
+@media (min-width: 1000px) {
+    
+    .container {
+        width: 60%;
+        height: 550px;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 0 45px 100px rgba(14,21,47,0.4), 0 16px 40px rgba(14,21,47,0.4);
+        padding: 20px;
+        
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 5px;
+    }
+    
+    .form h1 {
+        margin-bottom: 10px;
+    }
+
+    .form {
+        margin-bottom: 30px;
+    }
+    
+    input {
+        padding: 20px;
+    }
+    
+    button {
+        margin: 0 auto;
+    }
+    
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: inherit;
+        height: inherit;
+        padding-top: 10px;
+    }
+    
+    .form a {
+        margin-top: 10px;
+        text-decoration: none;
+        color: white
+    }
+
+    img {
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* Forgot password Modal */
+
+dialog {
+    width: 60%;
+    height: 300px;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 45px 100px rgba(14,21,47,0.4), 0 16px 40px rgba(14,21,47,0.4);
+    text-align: center;
+}
+
+.content {
+    margin: 3% 3%;
+}
+
+.content input {
+    width: 80%;
+    margin: 10px;
+}
+
+.content button {
+    width: 50%;
+    margin: 5px;
+}
+
+#reset {
+    background-color: #6FB553;
+}
+
+.content p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#close {
+    background-color: #DC3545;
+    width: 30%;
+}
